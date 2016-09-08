@@ -1,4 +1,4 @@
-package com.endava.bench.rabbit.workqueue.config;
+package rs.slavko.examples.rabbit.workqueue.config;
 
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;

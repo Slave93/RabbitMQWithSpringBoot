@@ -1,10 +1,9 @@
-package com.endava.bench.rabbit.publishsubscribe.listener;
+package rs.slavko.examples.rabbit.publishsubscribe.listener;
 
-import com.endava.bench.rabbit.publishsubscribe.config.MyRabbitConfiguration;
-import com.endava.bench.rabbit.publishsubscribe.model.MyMessage;
+import rs.slavko.examples.rabbit.publishsubscribe.config.MyRabbitConfiguration;
+import rs.slavko.examples.rabbit.publishsubscribe.model.MyMessage;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.*;
-import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Headers;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;

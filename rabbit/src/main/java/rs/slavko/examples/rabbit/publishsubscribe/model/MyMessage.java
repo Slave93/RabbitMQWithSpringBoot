@@ -1,4 +1,4 @@
-package com.endava.bench.rabbit.workqueue.model;
+package rs.slavko.examples.rabbit.publishsubscribe.model;
 
 public class MyMessage {
     private String title;

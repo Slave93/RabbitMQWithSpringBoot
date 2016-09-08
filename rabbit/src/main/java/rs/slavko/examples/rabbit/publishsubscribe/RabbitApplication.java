@@ -1,6 +1,6 @@
-package com.endava.bench.rabbit.workqueue;
+package rs.slavko.examples.rabbit.publishsubscribe;
 
-import com.endava.bench.rabbit.workqueue.model.MyMessage;
+import rs.slavko.examples.rabbit.publishsubscribe.model.MyMessage;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

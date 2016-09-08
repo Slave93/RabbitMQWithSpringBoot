@@ -1,4 +1,4 @@
-package com.endava.bench.rabbit.publishsubscribe.config;
+package rs.slavko.examples.rabbit.publishsubscribe.config;
 
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

@@ -1,8 +1,7 @@
-package com.endava.bench.rabbit.workqueue.listener;
+package rs.slavko.examples.rabbit.workqueue.listener;
 
-import com.endava.bench.rabbit.workqueue.config.MyRabbitConfiguration;
-import com.endava.bench.rabbit.workqueue.model.MyMessage;
-import org.springframework.amqp.core.ExchangeTypes;
+import rs.slavko.examples.rabbit.workqueue.config.MyRabbitConfiguration;
+import rs.slavko.examples.rabbit.workqueue.model.MyMessage;
 import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Headers;
@@ -10,7 +9,6 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
-import java.util.HashMap;
 import java.util.Map;
 
 /*
